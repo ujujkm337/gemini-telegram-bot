@@ -11,8 +11,8 @@ from google.genai.errors import APIError
 # --- 1. Настройки и Константы ---
 
 # Ключи считываются из переменных окружения (Secrets/Environment Variables).
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+GEMINI_API_KEY = os.environ.get("AIzaSyBE1rnr4zSfQFkmlABcbO0GPsbeVOoGDl8")
+TELEGRAM_BOT_TOKEN = os.environ.get("7623168300:AAHYt7EAB2w4KaLW38HD1Tk-_MjyWTIiciM")
 PORT = int(os.environ.get("PORT", 8080)) # Порт для Render Keep-Alive
 MODEL_NAME = "gemini-2.5-flash"
 
